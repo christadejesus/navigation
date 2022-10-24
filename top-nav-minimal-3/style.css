@@ -54,11 +54,11 @@ main {
     padding: 40px 20px;
 }
 /* TOPNAV */
-.menu-btn {
+.menu-btn, .close-btn {
     display: none;
     background: transparent;
 }
-.menu-btn i {
+.menu-btn i, .close-btn i {
     font-size: 3rem;
 }
 .logo {
@@ -146,6 +146,12 @@ main {
     }
     .social-list i {
         font-size: 3rem;
+    }
+    .visible {
+      display: block;
+    }
+    .hidden {
+      display: none;
     }
     .open { 
         width: 100%;

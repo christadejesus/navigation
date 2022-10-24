@@ -55,11 +55,11 @@ main {
   margin: 0 auto;
 }
 /* TOPNAV */
-.menu-btn {
+.menu-btn, .close-btn {
     display: none;
     background: transparent;
 }
-.menu-btn i {
+.menu-btn i, .close-btn i {
     font-size: 3rem;
     color: var(--neutral-lt);
 }
@@ -167,6 +167,12 @@ main {
       opacity: 70%;
     }
     .social-list {
+      display: none;
+    }
+    .visible {
+      display: block;
+    }
+    .hidden {
       display: none;
     }
     .open { 

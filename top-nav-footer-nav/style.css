@@ -1,3 +1,4 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -6,52 +7,52 @@
     font-size: 10px;
     line-height: 100%;
 }
+
+/* VARIABLES */
 :root {
     /* COLORS */
     --neutral-dk: #111;
-    --neutral-md: rgb(195, 195, 195);
     --neutral-lt: #fff;
-     --primary-1: #c5e1a5;
+    --primary: #023047;
+    --accent: #FFB703;
 
-     /* OTHER */
+    /* OTHER */
     --transition: all 300ms ease-in-out;
     --nav-height: 60px;
 }
 
 /* MAIN STYLES */
 body {
-    font-family: "Poppins", sans-serif;
-    background: var(--primary-1);
+  font-family: "Poppins", sans-serif;
 }
 p {
-    font-size: 1.8rem;
-    line-height: 150%;
-    margin-bottom: 40px;
+  font-size: 1.8rem;
+  line-height: 150%;
+  margin: 20px 0;
 }
 h1 {
     font-size: 3rem;
     font-weight: 600;
     text-transform: uppercase;
-    margin: 20px 0;
+    margin: 40px 0 20px;
 }
 h2 {
     font-size: 2.4rem;
     font-weight: 600;
-    margin: 20px 0;
+    margin: 40px 0 20px 0;
 }
 a {
-    color: var(--neutral-dk);
-    text-decoration: none;
-    font-size: 1.8rem;
-}
-a:hover {
-    opacity: 60%;
+  color: var(--neutral-dk);
+  text-decoration: none;
+  font-size: 1.8rem;
 }
 ul {
-    list-style: none;
+  list-style: none;
 }
 main {
-    padding: 40px 20px;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 /* TOPNAV */
 .menu-btn, .close-btn {
@@ -60,6 +61,7 @@ main {
 }
 .menu-btn i, .close-btn i {
     font-size: 3rem;
+    color: var(--neutral-lt);
 }
 .logo {
     text-transform: uppercase;
@@ -71,8 +73,14 @@ main {
     align-items: center;
     justify-content: space-between;
     height: var(--nav-height);
-    padding: 0 60px;
-    background: var(--neutral-lt);
+    padding: 0 40px;
+    background: var(--primary);
+}
+.top-nav a {
+  color: var(--neutral-lt);
+}
+.top-nav a:hover {
+  color: var(--accent)
 }
 .link-list {
     display: flex;
@@ -82,35 +90,37 @@ main {
 }
 .social-list {
     display: flex;
-    gap: 5px;
+    gap: 10px;
 }
 .social-list a {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--neutral-lt);
-    background: var(--neutral-dk);
+    color: var(--accent);
+    background: var(--neutral-lt);
     border-radius: 5px;
     width: 30px;
     height: 30px;
+    transition: var(--transition);
+}
+.social-list a:hover {
+  color: var(--primary);
+  transform: translateY(-5px);
 }
 .social-list i {
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
+/* FOOTER */
+
+
 /* MEDIA QUERIES */
-/* NOTE: I typically build navs with multiple links from a desktop-first approach while building the remaining content from a mobile first approach. */
 @media screen and (max-width: 750px) {
     .top-nav {
-        justify-content: flex-start;
-        gap: 30px;
         padding: 0 20px;
     }
     .menu-btn {
         display: block;
-    }
-    .logo {
-        margin-right: auto; /* pushes the social-list to the far right on mobile */
     }
     .link-list {
         position: absolute;
@@ -123,13 +133,19 @@ main {
         height: calc(100vh - var(--nav-height));
         width: 0;
         opacity: 1;
-        background: var(--neutral-dk);
+        background: var(--primary);
         overflow: hidden;
     }
     .link-list a {
         color: var(--neutral-lt);
         font-size: 2rem;
         letter-spacing: 1.2px;
+    }
+    .link-list a:hover {
+      color: var(--accent);
+    }
+    .social-list {
+      display: none;
     }
     .visible {
       display: block;
@@ -139,12 +155,11 @@ main {
     }
     .open { 
         width: 100%;
+        border-radius: initial;
     }
 }
 @media screen and (min-width: 750px) {
     main {
-        padding: 60px;
-        max-width: 900px;
-        margin: 0 auto;
+      padding: 40px;
     }
 }
