@@ -12,7 +12,7 @@ If you find this navigation library helpful, have feedback, or suggestions feel 
 
 - My website [@christadejesus.com](https://christadejesus.com)
 - Follow [@christa_dev](https://twitter.com/christa_dev) on Twitter
-- Connect with [@christade-jesus](https://www.linkedin.com/in/christa-dejesus/) on LinkedIn
+- Connect with [@christa-dejesus](https://www.linkedin.com/in/christa-dejesus/) on LinkedIn
 - Follow [@indychrista](https://codepen.io/indychrista) on codepen
 - Follow [@christadejesus](https://github.com/christadejesus) on Github
 
