@@ -66,6 +66,7 @@ main {
 .menu-btn i:hover, .close-btn i:hover {
   color: var(--accent);
 }
+
 .logo {
     text-transform: uppercase;
     font-size: 3.4rem;
@@ -85,11 +86,16 @@ main {
 .top-nav a:hover {
   color: var(--accent)
 }
+.lists-container {
+  display: flex;
+  align-items: baseline;
+  gap: 60px;
+  transition: var(--transition);
+}
 .link-list {
     display: flex;
     gap: 20px;
     padding-bottom: 3px;
-    transition: var(--transition);
 }
 .social-list {
     display: flex;
@@ -171,28 +177,32 @@ footer a:hover {
 @media screen and (max-width: 750px) {
     .top-nav {
         justify-content: flex-start;
-        gap: 30px;
         padding: 0 20px;
     }
     .menu-btn {
         display: block;
     }
-    .logo {
-      margin-right: auto;
-    }
+  .logo {
+    margin-right: auto;
+  }
+  .lists-container {
+    position: absolute;
+    top: var(--nav-height);
+    right: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - var(--nav-height));
+    width: 0;
+    opacity: 0;
+    background: var(--primary);
+    overflow: hidden;
+  }
     .link-list {
-        position: absolute;
-        top: var(--nav-height);
-        left: 0;
         flex-direction: column;
-        align-items: center;        
-        justify-content: center;
         gap: 30px;
-        height: calc(100vh - var(--nav-height));
-        width: 0;
+        max-width: fit-content;
         opacity: 1;
-        background: var(--primary);
-        overflow: hidden;
     }
     .link-list a {
         color: var(--neutral-lt);
@@ -202,6 +212,9 @@ footer a:hover {
     .link-list a:hover {
       color: var(--accent);
     }
+  .social-list i {
+      font-size: 3rem;
+  }
     .visible {
       display: block;
     }
@@ -210,7 +223,7 @@ footer a:hover {
     }
     .open { 
         width: 100%;
-        border-radius: initial;
+        opacity: initial;
     }
 }
 @media screen and (min-width: 750px) {

@@ -1,7 +1,7 @@
 // Tell JS which HTML elements you are wanting it to look at and store them in a new variable:
 const menuBtn = document.getElementById("menu-btn");
 const closeBtn = document.getElementById("close-btn");
-const linkList = document.getElementById("link-list");
+const listsContainer = document.getElementById("lists-container");
 
 // Add an event listener to the menu & close buttons:
 menuBtn.addEventListener("click", toggleMenu);
@@ -9,7 +9,7 @@ closeBtn.addEventListener("click", toggleMenu);
 
 // Define the toggleMenu() function
 function toggleMenu() {
-  linkList.classList.toggle("open");
+  listsContainer.classList.toggle("open");
   menuBtn.classList.toggle("hidden");
   closeBtn.classList.toggle("visible");
 }
