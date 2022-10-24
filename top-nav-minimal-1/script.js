@@ -17,7 +17,3 @@ function toggleMenu() {
 // Remember: Don't call the function here. You only want the function to run when the button and/or links are clicked!
 
 // Check out the nav-links in index.html: onclick="toggleMenu()" was added to each link so the mobile menu will also close when a link is clicked.
-
-// Remember: Don't call the function here. You only want the function to run when the button and/or links are clicked!
-
-// Check out the nav-links in index.html: onclick="toggleMenu()" was added to each link so the mobile menu will also close when a link is clicked.

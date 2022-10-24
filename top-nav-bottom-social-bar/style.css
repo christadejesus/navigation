@@ -63,6 +63,9 @@ main {
     font-size: 3rem;
     color: var(--neutral-lt);
 }
+.menu-btn i:hover, .close-btn i:hover {
+  color: var(--primary-2);
+}
 .logo {
     text-transform: uppercase;
     font-size: 3.4rem;
