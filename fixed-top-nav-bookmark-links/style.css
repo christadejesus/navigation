@@ -34,7 +34,7 @@ body,html {
   font-family: var(--sans-serif);
   color: var(--neutral-dk);
   scroll-behavior: smooth;
-  scroll-padding-top: calc(var(--nav-height) + 4rem);
+  scroll-padding-top: calc(var(--nav-height) + 3rem);
 }
 p {
     margin: 2rem 0;

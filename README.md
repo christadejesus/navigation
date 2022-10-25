@@ -1,10 +1,14 @@
-# 👋Welcome to My Navigation Library 
+![navbar quote](./assets/navbarquote.png)
+
+# Welcome to My Navigation Library 
 
 Navigation is tough to tackle when you're learning, but it's also a great way to practice your CSS and JS skills. There can be a lot going on in a 60-ish px high space...responsiveness, flexbox, grid, click events, transitions, buttons, links, lists, animations, hover effects, images, SVGs, and on and on.
 
-I'm creating a resource to serve as a reference and sharing for others who may be struggling with building their own navigation components. I'll start with the basics and  add more creative examples as I build for my own projects. 
+I'm creating a resource to serve as a reference and sharing for anyone who may be struggling with building their own navigation components. I'll start with the basics and add more creative examples as I build for my own projects. 
 
-## Contact Me
+The focus here is on function over design. So feel free to study the code, fix it, build on it, add some design bling, and make it work for your unique project. Have fun!
+
+## 👋 Contact Me
 
 If you find this navigation library helpful, have feedback, or suggestions feel free to contact me.
 
@@ -15,10 +19,6 @@ If you find this navigation library helpful, have feedback, or suggestions feel 
 - Connect with [@christa-dejesus](https://www.linkedin.com/in/christa-dejesus/) on LinkedIn
 - Follow [@indychrista](https://codepen.io/indychrista) on codepen
 - Follow [@christadejesus](https://github.com/christadejesus) on Github
-
->Don't fear the navbar.  Don't cuss the navbar.  Embrace the navbar.<br><br>
->-Christa DeJesus :)
-
 
 ## How to View Navigation Examples
 
