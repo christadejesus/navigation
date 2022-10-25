@@ -34,5 +34,6 @@ If you find this navigation library helpful, have feedback, or suggestions feel 
 | [Top Nav Minimal 2](https://christadejesus.github.io/navigation/top-nav-minimal-2) | HTML/CSS/JS |
 | [Top Nav Minimal 3](https://christadejesus.github.io/navigation/top-nav-minimal-3) | HTML/CSS/JS |
 | [Bottom Social Bar](https://christadejesus.github.io/navigation/bottom-social-bar) | HTML/CSS |
-|[Top Nav + Bottom Social Bar](https://christadejesus.github.io/navigation/top-nav-bottom-social-bar) | HTML/CSS/JS |
-|[Top Nav + Footer Nav](https://christadejesus.github.io/navigation/top-nav-footer-nav) | HTML/CSS/JS |
+| [Top Nav + Bottom Social Bar](https://christadejesus.github.io/navigation/top-nav-bottom-social-bar) | HTML/CSS/JS |
+| [Top Nav + Footer Nav](https://christadejesus.github.io/navigation/top-nav-footer-nav) | HTML/CSS/JS |
+| [Fixed Top Nav + Bookmark Links](https://christadejesus.github.io/navigation/fixed-top-nav-bookmark-links) | HTML/CSS/JS |
