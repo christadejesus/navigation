@@ -1,11 +1,11 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    font-size: 10px;
-    line-height: 100%;
 }
+
 :root {
     /* COLORS */
     --neutral-dk: #111;
@@ -15,15 +15,18 @@
      /* OTHER */
     --transition: all 300ms ease-in-out;
     --nav-height: 60px;
+    font-size: 10px;
+    line-height: 100%;
 }
 
 /* MAIN STYLES */
 body {
     font-family: "Poppins", sans-serif;
+    font-size: 1.8rem;
+    color: var(--neutral-dk);
     background: var(--primary-1);
 }
 p {
-    font-size: 1.8rem;
     line-height: 150%;
     margin-bottom: 20px;
 }
@@ -41,7 +44,6 @@ h2 {
 a {
     color: var(--neutral-dk);
     text-decoration: none;
-    font-size: 1.8rem;
 }
 a:hover {
     opacity: 60%;
@@ -54,24 +56,14 @@ ul {
 main {
     padding: 40px 20px;
 }
-main ul {
-  list-style: disc;
-  margin-left: 20px;
-}
-main ul li {
-  font-size: 1.8rem;
-  line-height: 1.5;
-}
-/* TOPNAV */
-.menu-btn, .close-btn {
+
+/* TOP NAV */
+.btn {
     display: none;
     background: transparent;
 }
-.menu-btn i, .close-btn i {
+.btn i {
     font-size: 3rem;
-}
-.menu-btn i:hover, .close-btn i:hover {
-  opacity: 50%;
 }
 .logo {
     text-transform: uppercase;
@@ -90,7 +82,6 @@ main ul li {
     display: flex;
     gap: 20px;
     padding-bottom: 3px;
-    border-radius: 0 0 30px 0;
     transition: var(--transition);
 }
 .social-list {
@@ -136,6 +127,7 @@ main ul li {
         height: 0;
         width: 0;
         opacity: 0;
+        border-radius: 0 0 30px 0;
         background: var(--neutral-dk);
         overflow: hidden;
     }
