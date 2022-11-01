@@ -5,40 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Top Nav + Footer Nav - Responsive | Christa DeJesus</title>
+    <title>Top Nav + Footer Nav | Christa DeJesus</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <script src="script.js" defer></script>
 </head>
 
 <body>
-        <!-- TOP NAV -->
-        <!-- Remember to add *** target="_blank" rel="noreferrer" *** to external links. This is omitted below for demo purposes only. -->
-<header>
-    <nav class="top-nav">
-        <a class="logo" href="#">Logo</a>
-        <div class="lists-container" id="lists-container">
-            <ul class="link-list" id="link-list">
-                <li class="nav-link"><a href="#" onclick="toggleMenu()">about</a></li>
-                <li class="nav-link"><a href="#" onclick="toggleMenu()">services</a>
-                </li>
-                <li class="nav-link"><a href="#" onclick="toggleMenu()">contact</a>
-                </li>
+    <!-- TOP NAV -->
+    <!-- Remember to add *** target="_blank" rel="noreferrer" *** to external links. This is omitted below for demo purposes only. -->
+    <header>
+        <nav class="top-nav">
+            <a class="logo" href="#">Logo</a>
+            <div class="lists-container" id="lists-container">
+                <ul class="link-list" id="link-list">
+                    <li><a href="#" onclick="toggleMenu()">about</a></li>
+                    <li><a href="#" onclick="toggleMenu()">services</a></li>
+                    <li><a href="#" onclick="toggleMenu()">contact</a></li>
                 </ul>
                 <ul class="social-list">
-                <li class="nav-link"><a href="#" onclick="toggleMenu()"><i class="ri-facebook-fill"></i></a>
-                </li>
-                <li class="nav-link"><a href="#" onclick="toggleMenu()"><i class="ri-instagram-fill"></i></a>
-                </li>
-                <li class="nav-link"><a href="#" onclick="toggleMenu()"><i class="ri-twitter-fill"></i></a>
-                </li>
+                    <li><a href="#" onclick="toggleMenu()"><i class="ri-facebook-fill"></i></a></li>
+                    <li><a href="#" onclick="toggleMenu()"><i class="ri-instagram-fill"></i></a></li>
+                    <li><a href="#" onclick="toggleMenu()"><i class="ri-twitter-fill"></i></a></li>
                 </ul>
-        </div>
-        <button class="menu-btn" id="menu-btn"><i class="ri-menu-line"></i></button>
-        <button class="close-btn" id="close-btn"><i class="ri-close-fill"></i></button>
-    </nav>
-</header>
-                <!-- END TOP NAV -->
+            </div>
+            <button class="btn menu-btn" id="menu-btn"><i class="ri-menu-line"></i></button>
+            <button class="btn close-btn" id="close-btn"><i class="ri-close-fill"></i></button>
+            </nav>
+            </header>
+            <!-- END TOP NAV -->
     <main>
         <h1>Top Nav + Footer Nav</h1>
         <p>Eiusmod veniam irure reprehenderit elit esse aliqua ipsum eiusmod ad ut reprehenderit sit ex adipisicing. Ea
@@ -46,12 +41,10 @@
             amet reprehenderit mollit enim. Magna velit voluptate voluptate eu consequat aute non sit veniam commodo.
             Non nisi pariatur id ea proident.</p>
         <h2>Some Awesome Heading</h2>
-        <p>Eiusmod veniam irure reprehenderit elit esse aliqua ipsum eiusmod ad ut reprehenderit sit ex adipisicing. Ea
-            cupidatat Lorem magna officia sit. Esse ipsum quis anim fugiat reprehenderit laboris ipsum commodo occaecat
-            amet
-            reprehenderit mollit enim. Magna velit voluptate voluptate eu consequat aute non sit veniam commodo. Non
-            nisi
-            pariatur id ea proident.</p>
+        <p>Eiusmod veniam irure reprehenderit elit esse aliqua ipsum eiusmod ad ut reprehenderit sit ex adipisicing.
+            Eacupidatat Lorem magna officia sit. Esse ipsum quis anim fugiat reprehenderit laboris ipsum commodo
+            occaecat amet reprehenderit mollit enim. Magna velit voluptate voluptate eu consequat aute non sit veniam
+            commodo. Non nisi pariatur id ea proident.</p>
     </main>
     <footer>
         <div class="main-content">
@@ -63,7 +56,7 @@
                     <a href="#"><i class="ri-twitter-fill"></i></a>
                 </div>
             </div>
-            <div class="footer-links">
+            <nav class="footer-links">
                 <ul class="footer-link-list">
                     <li class="footer-link"><a href="#">home</a></li>
                     <li class="footer-link"><a href="#">about</a></li>
@@ -72,7 +65,7 @@
                     <li class="footer-link"><a href="#">help</a></li>
                     <li class="footer-link"><a href="#">privacy</a></li>
                 </ul>
-            </div>
+            </nav>
         </div>
         <p class="copyright">&copy;2022 Some Awesome Company</p>
     </footer>
