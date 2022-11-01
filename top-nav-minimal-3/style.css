@@ -1,32 +1,33 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    font-size: 10px;
-    line-height: 100%;
 }
+
 :root {
     /* COLORS */
     --neutral-dk: #111;
-    --neutral-md: rgb(195, 195, 195);
     --neutral-lt: #fff;
     --primary-1: #b9e2f5;
 
-    /* OTHER */
+     /* OTHER */
     --transition: all 300ms ease-in-out;
     --nav-height: 60px;
+    font-size: 10px;
+    line-height: 100%;
 }
 
 /* MAIN STYLES */
 body {
     font-family: "Poppins", sans-serif;
+    font-size: 1.8rem;
     background: var(--primary-1);
 }
 p {
-    font-size: 1.8rem;
     line-height: 150%;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 h1 {
     font-size: 3rem;
@@ -37,12 +38,11 @@ h1 {
 h2 {
     font-size: 2.4rem;
     font-weight: 600;
-    margin: 20px 0;
+    margin: 40px 0 20px;
 }
 a {
     color: var(--neutral-dk);
     text-decoration: none;
-    font-size: 1.8rem;
 }
 a:hover {
     opacity: 60%;
@@ -53,16 +53,14 @@ ul {
 main {
     padding: 40px 20px;
 }
-/* TOPNAV */
-.menu-btn, .close-btn {
+
+/* TOP NAV */
+.btn {
     display: none;
     background: transparent;
 }
-.menu-btn i, .close-btn i {
+.btn i {
     font-size: 3rem;
-}
-.menu-btn i:hover, .close-btn i:hover {
-  opacity: 50%;
 }
 .logo {
     text-transform: uppercase;
@@ -101,9 +99,6 @@ main {
     border-radius: 5px;
     width: 30px;
     height: 30px;
-}
-.social-list i {
-    font-size: 1.8rem;
 }
 
 /* MEDIA QUERIES */
