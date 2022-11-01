@@ -4,7 +4,6 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    line-height: 100%;
 }
 :root {
     /* COLORS */
@@ -19,13 +18,14 @@
     --nav-height: 70px;
     
     /* FONT */
-    font-size: 10px;
     --font-standard: 1.8rem;
     --font-large: 2.4rem;
     --font-xlarge: 3rem;
 
     --serif: "Lora", serif;
     --sans-serif: "Open Sans", sans-serif;
+    font-size: 10px;
+    line-height: 100%;
 }
 
 /* MAIN STYLES */
@@ -37,10 +37,12 @@ body,html {
   scroll-padding-top: calc(var(--nav-height) + 3rem);
 }
 p {
+    line-height: 1.5;
     margin: 2rem 0;
     color: var(--neutral-md);
 }
 h1, h2 {
+    line-height: 1.2;
     font-weight: 500;
     margin: 4rem 0 2rem 0;
 }
@@ -52,7 +54,7 @@ h2 {
     font-family: var(--sans-serif);
     font-size: var(--font-large); 
 }
-h2 i {
+h2 i { 
     font-size: 1.6rem;
     color: var(--primary-2);
 }
@@ -60,16 +62,18 @@ a {
     color: var(--neutral-dk);
     text-decoration: none;
 }
-button {
+.btn {
     background: transparent;
     font-size: inherit;
     color: inherit;
+    font-size: var(--font-large);
 }
-a:hover, button:hover {
+a:hover, .btn:hover {
     opacity: 70%;
 }
 ul {
     list-style: none;
+    line-height: 1.5;
 }
 
 /* MAIN CONTENT */
@@ -104,14 +108,16 @@ ul {
     font-weight: 500;
     font-size: var(--font-large);
 }
-.menu-btn, .close-btn {
-    font-size: var(--font-large);
-}
 .close-btn {
     display: none;
 }
 .link-list {
     position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
     top: var(--nav-height);
     right: 0;
     width: 100%;
@@ -122,20 +128,13 @@ ul {
     transition: var(--transition);
     overflow: hidden;
 }
-.nav-link {
-    margin: var(--font-large) 0;
-}
-.nav-link i {
+.link-list i {
     padding-right: 1rem;
-}
-.nav-link:first-child {
-    margin-top: var(--nav-height);
 }
 .link-list a {    
     font-size: var(--font-large);
     font-weight: 500;
     text-transform: capitalize;
-    letter-spacing: .1rem;
 }
 .open {
     height: calc(100% - var(--nav-height));
