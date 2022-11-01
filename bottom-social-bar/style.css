@@ -4,11 +4,8 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    font-size: 10px;
-    line-height: 100%;
 }
 
-/* VARIABLES */
 :root {
     /* COLORS */
     --neutral-dk: #111;
@@ -17,14 +14,16 @@
 
      /* OTHER */
     --transition: all 300ms ease-in-out;
+    font-size: 10px;
+    line-height: 100%;
 }
 
 /* MAIN STYLES */
 body {
   font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
 }
 p {
-  font-size: 1.8rem;
   line-height: 150%;
   margin-bottom: 20px;
 }
@@ -38,11 +37,11 @@ h2 {
   font-size: 2.4rem;
   font-weight: 600;
   margin: 40px 0 20px 0;
+  line-height: 1.2;
 }
 a {
   color: var(--neutral-dk);
   text-decoration: none;
-  font-size: 1.8rem;
 }
 a:hover {
   opacity: 60%;
@@ -50,17 +49,10 @@ a:hover {
 ul {
   list-style: none;
 }
-hr {
-  height: 1px;
-  background: var(--neutral-dk);
-  opacity: 40%;
-  margin-bottom: 40px;
-}
 header {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
   color: var(--neutral-lt);
   background: var(--primary-1);
   height: 140px;
