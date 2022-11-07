@@ -7,7 +7,7 @@
   border: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  scroll-margin-top: 180px; /* keeps the heading of section scrolled to visible below the height of the top navigation */
+  scroll-margin-top: 220px; /* keeps the heading of section scrolled to visible below the height of the top navigation */
 }
 
 :root {
@@ -62,18 +62,18 @@ a {
   color: var(--neutral-dk);
   text-decoration: none;
 }
-.btn {
+button {
   background: transparent; /* get rid of that funky default gray background */
   cursor: pointer;
 }
-.main-btn {
+.btn {
   font-size: 1.4rem;
   border: 1px solid var(--neutral-md);
   padding: 6px 12px;
   border-radius: 4px;
   color: var(--neutral-white);  
 }
-.main-btn:hover {
+.btn:hover {
   color: var(--neutral-dk);
   background: var(--neutral-white);
 }
@@ -84,6 +84,7 @@ a {
   background: var(--neutral-dk);
 }
 
+
 /* CONTAINERS */
 .main-container { /* wraps all page content separating it from any headers/footers */
   display: flex;
@@ -92,7 +93,7 @@ a {
 }
 .main-content { /* for this project, this class is assigned to the article element, allows for additional positioning within the parent flex container*/
   max-width: 900px;
-  padding: 150px 20px 40px 20px; /* drops the main content down below the top navigation */
+  padding: 220px 20px 40px 20px; /* drops the main content down below the top navigation */
 }
 
 /* DESIGN ELEMENTS */
@@ -212,17 +213,11 @@ a {
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 600px) {
-  * {
-    scroll-margin-top: 230px;
-  }
   .main-content {
-    padding: 200px 40px 40px 40px;
+    padding: 220px 40px 40px 40px;
   }
   .tier-1-details {
     display: block;
-  }
-  .tier-2, .tier-3 {
-    padding: 1.6rem 4rem;
   }
   .tier-2-left {
     flex-direction: row;
@@ -245,24 +240,16 @@ a {
   .search-icon {
     font-size: initial;
   }
-  .main-btn {
+  .btn {
     width: 7rem;
     padding: 5px 0;
   }
   .user-account .secondary-btn {
   display: block;
   }
-  .tier-3 a {
-    font-size: 1.8rem;
-  }
 }
 @media screen and (min-width: 900px) {
-  .tier-1,
-  .tier-2,
-  .tier-3 {
-    padding: 2rem 6rem;
-  }
   .main-content {
-    padding: 200px 60px 40px 60px;
+    padding: 220px 60px 40px 60px;
   }
 }
