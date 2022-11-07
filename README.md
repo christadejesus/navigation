@@ -38,3 +38,5 @@ If you find this navigation library helpful, have feedback, or suggestions feel 
 | [Top Nav + Footer Nav](https://christadejesus.github.io/navigation/top-nav-footer-nav) | HTML/CSS/JS |
 | [Fixed Top Nav + Bookmark Links](https://christadejesus.github.io/navigation/fixed-top-nav-bookmark-links) | HTML/CSS/JS |
 | [3-Tier Top Nav ](https://christadejesus.github.io/navigation/3-tier-top-nav) | HTML/CSS |
+| [Fixed Top Nav + Footer Nav ](https://christadejesus.github.io/navigation/fixed-top-nav-footer-nav) | HTML/CSS/JS |
+| [Fixed Top Nav Tabs ](https://christadejesus.github.io/navigation/fixed-top-nav-tabs) | HTML/CSS/JS |
