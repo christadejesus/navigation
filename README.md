@@ -2,21 +2,21 @@
 
 # Welcome to My Navigation Library 
 
-Navigation is tough to tackle when you're learning, but it's also a great way to practice your CSS and JS skills. There can be a lot going on in a 60-ish px high space...responsiveness, flexbox, grid, click events, transitions, buttons, links, lists, animations, hover effects, images, SVGs, and on and on.
+Navigation can be tough to tackle when you're starting out, but it's a great opportunity to work out your programming skills. There can be a lot going on in that tiny space...responsiveness, flexbox, grid, events, transitions, buttons, links, lists, animations, hover effects, images, SVGs, and on and on.
 
-I'm creating a resource to serve as a reference and sharing for anyone who may be struggling with building their own navigation components. I'll start with the basics and add more creative examples as I build for my own projects. 
+I created this resource as a reference for myself and anyone who may be struggling with building navigation components. As long as I'm building new navbars, I will update and maintain this repo.
 
-The focus here is on function over design. So feel free to study the code, fix it, build on it, add some design bling, and make it work for your unique project. Have fun!
+Keep in mind, the focus here is more on programming than design. So feel free to study the code, fix it, build on it, add some design bling, and make it work for your unique project.
+
+Have fun and let me know if you found some inspiration here!
 
 ## 👋 Contact Me
 
-If you find this navigation library helpful, have feedback, or suggestions feel free to contact me.
-
-### Where to find me:
+If you find this navigation library helpful or have feedback, suggestions, or questions, feel free to get in touch. You can find me at:
 
 - My website [@christadejesus.com](https://christadejesus.com)
 - Connect with [@christa-dejesus](https://www.linkedin.com/in/christa-dejesus/) on LinkedIn
-- Follow [@indychrista](https://codepen.io/christadejesus) on codepen
+- Follow [@christadejesus](https://codepen.io/christadejesus) on codepen
 - Follow [@christadejesus](https://github.com/christadejesus) on Github
 
 ## How to View Navigation Examples
