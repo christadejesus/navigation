@@ -62,6 +62,12 @@ a {
   color: var(--neutral-dk);
   text-decoration: none;
 }
+p a { /* applies only to hyperlinks placed within paragraphs */
+  font-weight: 600;
+}
+p a:hover {
+  opacity: 80%;
+}
 button {
   background: transparent; /* get rid of that funky default gray background */
   cursor: pointer;
@@ -83,7 +89,10 @@ button {
 .secondary-btn {
   background: var(--neutral-dk);
 }
-
+.flex-link {
+  display: flex;
+  gap: 1rem;
+}
 
 /* CONTAINERS */
 .main-container { /* wraps all page content separating it from any headers/footers */
