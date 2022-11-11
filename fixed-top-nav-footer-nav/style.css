@@ -7,22 +7,24 @@
 }
 
 :root {
-    /* COLORS */
+    /* COLOR VARIABLES */
     --neutral-dk: #111;
     --neutral-md: #222;
     --neutral-mdlt: #e0e0e1;
     --neutral-lt: #fff;
     --primary:  #FFB703;
 
-    /* OTHER */
+    /* OTHER VARIABLES */
     --transition: all 300ms ease-in-out;
     --nav-height: 70px;
+
+    /* GLOBALS */
     font-size: 10px;
     line-height: 1.5;
 }
 
 /* MAIN STYLES */
-body, html {
+body {
   font-family: "Poppins", sans-serif;
   font-size: 1.8rem;
   color: var(--neutral-lt);
@@ -45,28 +47,28 @@ h2 {
     font-size: 2.4rem;
 }
 a {
-  color: var(--neutral-dk);
+  color: var(--primary);
   text-decoration: none;
+}
+a:hover {
+  color: inherit;
 }
 ul {
   list-style: none;
 }
-main {
-  padding: 20px 20px 40px 20px;
-  max-width: 900px;
-  margin: 0 auto;
+button {
+  background: transparent;
 }
 /* TOPNAV */
-.btn {
+.menu-btn, .close-btn {
     display: none;
-    background: transparent;
 }
-.btn i {
+.menu-btn i, .close-btn i {
     font-size: 3rem;
-    color: var(--neutral-lt);
+    color: var(--primary);
 }
-.btn i:hover {
-  color: var(--primary);
+.menu-btn i:hover, .close-btn i:hover {
+  color: var(--neutral-mdlt);
 }
 .top-nav {
     position: fixed;
@@ -77,12 +79,6 @@ main {
     height: var(--nav-height);
     padding: 0 40px;
     background: var(--neutral-dk);
-}
-.top-nav a {
-  color: var(--neutral-lt);
-}
-.top-nav a:hover {
-  color: var(--primary);
 }
 .logo{
     text-transform: uppercase;
@@ -100,6 +96,12 @@ main {
     gap: 20px;
     padding-bottom: 3px;
 }
+.link-list a {
+  color: var(--neutral-mdlt);
+}
+.link-list a:hover {
+  color: var(--primary);
+}
 .social-list {
     display: flex;
     gap: 10px;
@@ -108,7 +110,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--neutral-lt);
+    color: var(--neutral-mdlt);
     border-radius: 5px;
     width: 30px;
     height: 30px;
@@ -122,6 +124,19 @@ main {
     font-size: 2rem;
 }
 
+/* MAIN CONTENT  */
+main {
+  padding: 20px 20px 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.flex-link {
+  display: flex;
+  gap: 1rem;
+}
+.flex-link i {
+  color: var(--neutral-mdlt);
+}
 /* FOOTER */
 footer {
   text-align: center;
