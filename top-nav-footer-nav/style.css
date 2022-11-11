@@ -7,15 +7,17 @@
 }
 
 :root {
-    /* COLORS */
+    /* COLOR VARIABLES */
     --neutral-dk: #111;
     --neutral-lt: #fff;
     --primary: #023047;
     --accent: #FFB703;
 
-    /* OTHER */
+    /* OTHER VARIABLES */
     --transition: all 300ms ease-in-out;
     --nav-height: 70px;
+
+    /* GLOBALS */
     font-size: 10px;
     line-height: 1.5;
 }

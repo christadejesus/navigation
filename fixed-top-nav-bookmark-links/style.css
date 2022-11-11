@@ -66,6 +66,7 @@ a {
     font-size: inherit;
     color: inherit;
     font-size: var(--font-large);
+    cursor: pointer;
 }
 a:hover, .btn:hover {
     opacity: 70%;
@@ -79,7 +80,18 @@ ul {
 .main-content {
     padding: 100px 5%;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 0 auto; 
+}
+p a { /* applies only to hyperlinks placed within paragraphs */
+  color: var(--neutral-dk);
+}
+p a:hover {
+  opacity: 80%;
+}
+.flex-link {
+  display: flex;
+  gap: 1rem;
+  margin-left: 2rem;
 }
 
 /* TOP NAV */
