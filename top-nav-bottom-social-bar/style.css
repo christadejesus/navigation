@@ -19,7 +19,7 @@
 
     /* GLOBALS */
     font-size: 10px;
-    line-height: 100%;
+    line-height: 1.5;
 }
 
 /* MAIN STYLES */
@@ -28,7 +28,6 @@ body {
   font-size: 1.8rem;
 }
 p {
-  line-height: 150%;
   margin: 20px 0;
 }
 h1 {
@@ -51,11 +50,7 @@ a {
 ul {
   list-style: none;
 }
-main {
-  padding: 40px 20px 100px 20px;
-  max-width: 900px;
-  margin: 0 auto;
-}
+
 /* TOPNAV */
 .btn {
     display: none;
@@ -111,6 +106,28 @@ main {
 }
 .social-list i {
     font-size: 2rem;
+}
+/* MAIN CONTENT */
+main {
+  padding: 40px 20px 100px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+p a {
+  color: var(--primary-2);
+  font-weight: 600;
+}
+p a:hover {
+  opacity: 80%;
+}
+.flex-link {
+  display: flex;
+  gap: 1rem;
+  color: var(--primary-2);
+  font-weight: 500;
+}
+.flex-link:hover {
+  color: var(--primary-1);
 }
 /* SOCIAL BAR */
 .social-bar {
