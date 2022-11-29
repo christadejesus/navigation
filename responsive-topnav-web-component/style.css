@@ -1,0 +1,41 @@
+/* This CSS is global, although not all will carry over to the encapsulated web component!  */
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  background: none;
+}
+:root {
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  font-size: 1.8rem;
+}
+p {
+  margin: 2rem 0;
+}
+h1 {
+  font-size: 3rem;
+  margin: 4rem 0 2rem 0;
+}
+a {
+  color: orangered;
+  text-decoration: none;
+  font-weight: 500;
+}
+a:hover {
+  color: #777;
+  text-decoration: underline;
+}
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 2rem;
+}
+.main-section {
+  max-width: 800px;
+}

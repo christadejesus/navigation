@@ -1,5 +1,3 @@
-![navbar quote](./assets/navbarquote.png)
-
 # Welcome to My Navigation Library 
 
 Navigation can be tough to tackle when you're starting out, but it's a great opportunity to work out your programming skills. There can be a lot going on in that tiny space...responsiveness, flexbox, grid, events, transitions, buttons, links, lists, animations, hover effects, images, SVGs, and on and on.
@@ -39,3 +37,4 @@ If you find this navigation library helpful or have feedback, suggestions, or qu
 | [3-Tier Top Nav ](https://christadejesus.github.io/navigation/3-tier-top-nav) | HTML/CSS |
 | [Fixed Top Nav + Footer Nav ](https://christadejesus.github.io/navigation/fixed-top-nav-footer-nav) | HTML/CSS/JS |
 | [Fixed Top Nav Tabs ](https://christadejesus.github.io/navigation/fixed-top-nav-tabs) | HTML/CSS/JS |
+| [Responsive Top Nav Web Component ](https://christadejesus.github.io/navigation/responsive-topnav-web-component) | HTML/CSS/JS |
